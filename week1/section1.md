@@ -1,4 +1,4 @@
-# reqire
+## reqire
 모듈 불러오는 함수
 
 var require = function(src){                 
