@@ -1,2 +1,2 @@
-# solchive
-Solux project
+# solchive_study
+java script study
