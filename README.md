@@ -1,2 +1,3 @@
-# solchive_study
-java script study
+# solchive
+java script
+node.js
