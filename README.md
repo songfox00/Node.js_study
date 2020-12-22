@@ -1,2 +1,2 @@
 # solchive
-Solux project homepage
+Solux project
