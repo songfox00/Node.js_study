@@ -14,4 +14,4 @@ var require = function(src){
 밖에 있는 코드 먼저 실행
 
 ## 현재 디렉토리 절대 경로
-__dirname
+__dirname + "/그 이후 경로"
