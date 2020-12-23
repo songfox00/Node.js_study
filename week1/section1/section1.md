@@ -15,3 +15,6 @@ var require = function(src){
 
 ## 현재 디렉토리 절대 경로
 __dirname + "/그 이후 경로"
+
+## localhost
+locatlhost는 127.0.0.1과 같다
