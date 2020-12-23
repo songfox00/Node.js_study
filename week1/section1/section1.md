@@ -18,3 +18,6 @@ __dirname + "/그 이후 경로"
 
 ## localhost
 locatlhost는 127.0.0.1과 같다
+
+## res.send("")
+서버가 정상적으로 로드되면 서버에 출력
