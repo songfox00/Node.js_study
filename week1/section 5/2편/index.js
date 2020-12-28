@@ -12,7 +12,6 @@ var connection=mysql.createConnection({
     password : 'LunMoon2423',
     database : 'jsman'
 })
-
 connection.connect()
 
 // ROUTER
