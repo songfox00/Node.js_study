@@ -2,7 +2,7 @@ var express = require('express')    //express 모듈 불러오기
 var app = express()
 var bodyParser = require('body-parser')
 var mysql=require('mysql')
-var main= require('./router/main')
+var main= require('./router/main')  //모듈화
 
 var connection=mysql.createConnection({
     host : 'localhost',
@@ -23,7 +23,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended:true})) 
 app.set('view engine', 'ejs') //view engine는 ejs야
 
-app.use('/main', main) //main으로 들어오면 main.js를 씀
+app.use('/main', main) //main으로 들어오면 main.js를 씀(모듈화)
 
 //url routing 
 app.get('/', function(req,res){ //콜백함수 (비동기)
