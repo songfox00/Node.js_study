@@ -7,8 +7,8 @@ var main= require('./router/main')  //모듈화
 var connection=mysql.createConnection({
     host : 'localhost',
     port : 3306,
-    user : 'root',
-    password : 'LunMoon2423',
+    user : <>,
+    password : <>,
     database : 'jsman'
 })
 
